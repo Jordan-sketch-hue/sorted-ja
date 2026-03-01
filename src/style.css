@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-slate-950 text-slate-200 antialiased;
+    font-family: 'Inter', sans-serif;
+    background-image:
+      radial-gradient(circle at 15% 15%, rgba(34, 211, 238, 0.16), transparent 42%),
+      radial-gradient(circle at 85% 20%, rgba(56, 189, 248, 0.1), transparent 38%),
+      linear-gradient(180deg, #020617 0%, #0f172a 50%, #020617 100%);
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    @apply text-white;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .glass {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-xl bg-brand-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-brand-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold tracking-tight text-white md:text-4xl;
+  }
+
+  .section-subtitle {
+    @apply mt-4 max-w-2xl text-base text-slate-300 md:text-lg;
+  }
+
+  .feature-card {
+    @apply glass p-6 transition duration-300 hover:-translate-y-1 hover:border-brand-400/50 hover:shadow-glow;
+  }
+
+  .reveal {
+    @apply translate-y-6 opacity-0 transition-all duration-700;
+  }
+
+  .reveal.is-visible {
+    @apply translate-y-0 opacity-100;
+  }
+
+  .nav-link {
+    @apply rounded-lg px-3 py-2 text-sm font-medium text-slate-300 transition hover:text-white;
+  }
+
+  .nav-link.active {
+    @apply bg-white/10 text-white;
+  }
+
+  .page-hero {
+    @apply relative overflow-hidden border-b border-white/10 py-24;
+  }
+}
+
+#site-modal.hidden {
+  display: none;
+}
+
+[data-faq-item] [data-faq-answer] {
+  display: none;
+}
+
+[data-faq-item].open [data-faq-answer] {
+  display: block;
+}
