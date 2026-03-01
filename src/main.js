@@ -54,7 +54,7 @@ function buildFooter() {
           <a href="/" class="inline-flex items-center rounded-xl bg-white/95 px-2.5 py-1.5 sm:px-3 sm:py-2">
             <img src="/logo-sortedja.svg" alt="Sorted JA" class="h-7 w-auto sm:h-8" />
           </a>
-          <p class="mt-3 text-sm text-slate-300">Premium support for documents, government applications, travel paperwork, and diaspora services.</p>
+          <p class="mt-3 text-sm text-slate-300">Premium support for documents, government applications, business registration, travel paperwork, and diaspora services.</p>
         </div>
         <div>
           <h4 class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Quick Links</h4>
@@ -111,7 +111,8 @@ function injectModal() {
           <option value="">Select service</option>
           <option>Travel & Immigration</option>
           <option>Motor Vehicle Services</option>
-          <option>Document Processing</option>
+          <option>Personal Documents</option>
+          <option>Business Registration & Startup</option>
           <option>Diaspora Services</option>
         </select>
         <textarea class="min-h-28 rounded-xl border border-white/15 bg-slate-950 px-4 py-3 text-sm text-white outline-none focus:border-brand-400" placeholder="Brief details"></textarea>

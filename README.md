@@ -103,6 +103,7 @@ Stock images are pulled from **Pexels** (free use under Pexels license):
 - https://www.pexels.com/photo/group-of-coworkers-on-a-board-room-1367274/
 - https://www.pexels.com/photo/white-printer-paper-48195/
 - https://www.pexels.com/photo/happy-customer-and-agent-reading-the-contract-4173196/
+- https://www.pexels.com/photo/crop-businessman-giving-contract-to-woman-to-sign-3760067/
 - https://www.pexels.com/photo/group-of-people-having-business-meeting-together-3183183/
 - https://www.pexels.com/photo/call-center-employees-talking-to-each-other-5455007/
 - https://www.pexels.com/photo/woman-in-brown-blazer-wearing-black-headset-5467576/
