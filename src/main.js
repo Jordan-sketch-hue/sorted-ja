@@ -30,9 +30,8 @@ function buildHeader() {
   return `
     <header class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
       <div class="container-shell flex h-20 items-center justify-between">
-        <a href="/" class="flex items-center gap-2 text-xl font-semibold text-white">
-          <span class="text-brand-400">✓</span>
-          <span>Sorted JA</span>
+        <a href="/" class="inline-flex items-center rounded-xl bg-white/95 px-3 py-2 shadow-glow" aria-label="Sorted JA Home">
+          <img src="/logo-sortedja.svg" alt="Sorted JA" class="h-8 w-auto" />
         </a>
         <nav class="hidden items-center gap-1 lg:flex">${desktopLinks}</nav>
         <div class="hidden lg:block">
@@ -52,7 +51,9 @@ function buildFooter() {
     <footer class="border-t border-white/10 py-10">
       <div class="container-shell grid gap-8 md:grid-cols-3">
         <div>
-          <h3 class="text-xl font-semibold">Sorted JA</h3>
+          <a href="/" class="inline-flex items-center rounded-xl bg-white/95 px-3 py-2">
+            <img src="/logo-sortedja.svg" alt="Sorted JA" class="h-8 w-auto" />
+          </a>
           <p class="mt-3 text-sm text-slate-300">Premium support for documents, government applications, travel paperwork, and diaspora services.</p>
         </div>
         <div>
