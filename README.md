@@ -92,3 +92,17 @@ Premium, modern, multi-page static website for **Sorted JA** built with:
 ## Notes
 - Update domain references in `public/sitemap.xml` and `public/robots.txt` to match your final production domain.
 - Replace placeholder contact details with official Sorted JA contact information.
+
+## Stock Image Sources
+Stock images are pulled from **Pexels** (free use under Pexels license):
+- https://www.pexels.com/photo/shallow-focus-of-woman-working-in-a-call-center-7682201/
+- https://www.pexels.com/photo/person-holding-red-and-blue-book-7009611/
+- https://www.pexels.com/photo/magnifying-glass-and-a-document-10341357/
+- https://www.pexels.com/photo/person-signing-on-a-paper-7567600/
+- https://www.pexels.com/photo/man-standing-in-front-of-front-desk-3215519/
+- https://www.pexels.com/photo/group-of-coworkers-on-a-board-room-1367274/
+- https://www.pexels.com/photo/white-printer-paper-48195/
+- https://www.pexels.com/photo/happy-customer-and-agent-reading-the-contract-4173196/
+- https://www.pexels.com/photo/group-of-people-having-business-meeting-together-3183183/
+- https://www.pexels.com/photo/call-center-employees-talking-to-each-other-5455007/
+- https://www.pexels.com/photo/woman-in-brown-blazer-wearing-black-headset-5467576/
