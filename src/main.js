@@ -4,7 +4,7 @@ const navItems = [
   { href: '/', label: 'Home', key: 'home' },
   { href: '/about.html', label: 'About', key: 'about' },
   { href: '/services.html', label: 'Services', key: 'services' },
-  { href: '/pricing.html', label: 'Pricing', key: 'pricing' },
+  { href: '/prices.html', label: 'Prices', key: 'prices' },
   { href: '/how-it-works.html', label: 'How It Works', key: 'how-it-works' },
   { href: '/faq.html', label: 'FAQ', key: 'faq' },
   { href: '/contact.html', label: 'Contact', key: 'contact' }
